@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM amazoncorretto:17
 WORKDIR /app
 COPY ./target/aws-ecs-example-0.0.1-SNAPSHOT.jar /app
 EXPOSE 8080
